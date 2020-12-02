@@ -45,7 +45,7 @@ namespace leave_managment
             // Add references for AutoMapper  to Startup file
             services.AddAutoMapper(typeof(Maps));
 
-            services.AddDefaultIdentity<IdentityUser>()
+            services.AddDefaultIdentity<Employee>()
                 .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
@@ -55,7 +55,7 @@ namespace leave_managment
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app,
                               IWebHostEnvironment env,
-                              UserManager<IdentityUser> userManager,
+                              UserManager<Employee> userManager,
                               RoleManager<IdentityRole> roleManager)
         {
             if (env.IsDevelopment())
