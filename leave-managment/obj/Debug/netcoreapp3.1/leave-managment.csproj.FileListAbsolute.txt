@@ -236,3 +236,4 @@ C:\Users\Haris\Desktop\leave-managment\leave-managment\obj\Debug\netcoreapp3.1\l
 C:\Users\Haris\Desktop\leave-managment\leave-managment\obj\Debug\netcoreapp3.1\Razor\Views\LeaveRequest\Create.cshtml.g.cs
 C:\Users\Haris\Desktop\leave-managment\leave-managment\obj\Debug\netcoreapp3.1\Razor\Views\LeaveRequest\Details.cshtml.g.cs
 C:\Users\Haris\Desktop\leave-managment\leave-managment\obj\Debug\netcoreapp3.1\Razor\Views\LeaveRequest\MyLeave.cshtml.g.cs
+C:\Users\Haris\Desktop\leave-managment\leave-managment\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminLTE.cshtml.g.cs
