@@ -42,6 +42,8 @@ namespace leave_managment
             services.AddScoped<ILeaveAllocationRepository, LeaveAllocationRepository>();
             services.AddScoped<ILeaveRequestRepository, LeaveRequestRepository>();
 
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
+
             // Add references for AutoMapper  to Startup file
             services.AddAutoMapper(typeof(Maps));
 
